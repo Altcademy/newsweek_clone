@@ -1,15 +1,12 @@
 /* Main Content */
 
 .main-content {
-  overflow-y:visible;
   position:relative;
-  height:100px;
 }
 
 .main {
   padding-left: 0px;
   padding-right: 0px;
-  top: -20px;
 }
 
 .img-responsive {
