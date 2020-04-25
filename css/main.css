@@ -24,6 +24,11 @@
   text-align: center;
 }
 
+.content-background {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
 #story {
   text-transform: uppercase;
   color:black;
