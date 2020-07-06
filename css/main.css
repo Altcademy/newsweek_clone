@@ -22,6 +22,7 @@
 .content-background {
   margin-left: -15px;
   margin-right: -15px;
+  position: relative;
 }
 
 #story {
@@ -38,23 +39,18 @@ a {
   color:inherit;
 }
 
-.info {
+.info-wrapper {
   border-top: 4px solid #ff0500;
   padding: 15px 30px 25px;
-  position: relative;
 }
 
 @media only screen and (min-width: 768px){
-  .info {
-    margin-top: -150px;
-  }
-  .glass {
+  .info-wrapper {
     background-image: linear-gradient(to bottom,rgba(255,255,255,0.5) 0,#fff 50%,#fff 100%);
     position: absolute;
-    top: 0;
+    bottom: 0;
     left: 0;
     right: 0;
-    height:155px;
   }
 }
 
@@ -69,8 +65,7 @@ a {
 /* Main Horizontal Divider- after main pic */
 
 .main-horizontal-divider {
-  width: 100%;
-  border-bottom:1px solid #f2f2f2;
+  border-top:1px solid #f2f2f2;
 }
 
 /* ----------------------- */
